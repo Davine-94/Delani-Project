@@ -44,3 +44,22 @@ html{
       transform: translateY(-45px);
     }
   }
+  .wwd{
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top:40px;
+    font-family: 'Copse', serif;
+  }
+  #aboutU{
+    font-family: 'Gabriela', serif;
+  }
+  .service{
+    text-align: center;
+    background-image: url("../img/s_image.jpg");
+    color: white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Copse', serif;
+    font-size: 18px;
+  }
