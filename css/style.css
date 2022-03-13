@@ -18,3 +18,29 @@ html{
   .introduction p{
     padding: 2px;
   }
+  #dLogo{
+    margin-top: 12px;
+    margin-bottom: 24px;
+    width: 70px;
+    height: 70px;;
+  }
+  #buttonClick{
+    padding-top : 22px;
+    margin-top: 10%;
+    padding-bottom: 30px; 
+    /* animation-iteration-count: infinite; */
+  }
+  #buttonClick {
+    animation: bounce 3s infinite;
+  }
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-55px);
+    }
+    60% {
+      transform: translateY(-45px);
+    }
+  }
