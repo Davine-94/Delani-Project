@@ -97,3 +97,10 @@ html{
     padding-top:40px;
     font-family: 'Gabriela', serif;
   }
+  .infoPage{
+    background-image: url('../img/c_image.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
