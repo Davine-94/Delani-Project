@@ -97,3 +97,16 @@ $(document).ready(function(){
         $("#layover7").hide();
         });
         });
+let collectInput = () => {
+    if ($(`#userName`).val() == ``) {
+        alert(`Please provide your full names`);
+    } else if ($(`#userMail`).val() == ``) {
+        alert(`Please provide your E-mail address`)
+             }
+    else if ($(`#userMessage`).val() == ``) {
+        alert(`We'd love to hear from you. Please fill it in`)
+                  }
+    else {userName = $(`#userName`).val();
+        alert(userName + ` we have recieved your message. Thank you for reaching out to us`)
+                  }
+              }
