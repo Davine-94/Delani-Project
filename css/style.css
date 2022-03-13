@@ -63,3 +63,21 @@ html{
     font-family: 'Copse', serif;
     font-size: 18px;
   }
+  .service h2
+  {
+    font-family: 'Gabriela', serif;
+  }
+  #cService{
+    background-color: rgba(0,0,0,0.4);
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+  .whatWeDo{
+    font-family: 'Quattrocento', serif;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Gabriela', serif;
+  }
+  .whatWeDo .wwdHeading{
+    padding-bottom: 38px;
+  }
