@@ -131,3 +131,13 @@ html{
   .row > * {
     padding-left: 0;
   }
+  .row {
+    margin-bottom: 20px;
+  }  
+  input[type=text],input[type=email]{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+ 
