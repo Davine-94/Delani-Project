@@ -1,10 +1,36 @@
 $(document).ready(function(){
     $("#dImage").click(function(){
-      $("#dImage").slideDown('1500').hide('1000');
-      $("#dDevelopment").show('1500');
+      $("#dImage").slideDown().hide();
+      $("#dDevelopment").show();
     });
     $("#dDevelopment").click(function(){
-      $("#dDevelopment").slideUp('1500');
-      $("#dImage").slideDown('1500');
+      $("#dDevelopment").slideUp();
+      $("#dImage").slideDown();
     });
   });
+  $("#dDevelopment").click(function(){
+    $("#dDevelopment").slideUp();
+    $("#dImage").slideDown();
+  });
+
+$(document).ready(function(){
+  $("#dImage").click(function(){
+    $("#dImage").slideDown().hide();
+    $("#dDesign").show();
+  });
+  $("#dDesign").click(function(){
+    $("#dDesign").slideUp();
+    $("#dImage").slideDown();
+  });
+});
+
+$(document).ready(function(){
+  $("#pImage").click(function(){
+    $("#pImage").slideDown().hide();
+    $("#pManagement").show();
+  });
+  $("#pManagement").click(function(){
+    $("#pManagement").slideUp();
+    $("#pImage").slideDown();
+  });
+});
