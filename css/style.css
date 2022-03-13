@@ -11,3 +11,10 @@ html{
     padding-top:17%; 
     font-family: 'Gabriela', serif;
   }
+  .introduction h1{
+    padding: 2px;
+    margin: 5px;
+  }
+  .introduction p{
+    padding: 2px;
+  }
